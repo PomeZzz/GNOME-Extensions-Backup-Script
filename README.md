@@ -37,3 +37,18 @@ This will create a file called extensions.conf in the same directory.
 ./script.sh import
 
 ```
+## 📁 Output File
+
+The configuration is saved in a file called:
+```
+extensions.conf
+```
+Feel free to rename or move it to a safe backup location.
+
+## 💡 Tip
+
+You can automate this process with a cron job or sync the file to a cloud service for easier backups.
+
+## 🧠 Why I made this
+
+I couldn’t find a simple way to do this online — most solutions were either too complex or didn’t fully work. So I put together this basic but effective script and wanted to share it in case it helps someone else too.
