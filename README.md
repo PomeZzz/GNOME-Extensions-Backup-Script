@@ -23,18 +23,18 @@ cd File location
 ```
 ### 2. Make the script executable
 ```bash
-chmod +x script.sh
+chmod +x gnome-extensions-config.sh
 ```
 
 ### 3. Export your current extensions config
 ```bash
-./script.sh export
+./gnome-extensions-config.sh export
 ```
 This will create a file called extensions.conf in the same directory.
 
 ### 4. Import it back later
 ```bash
-./script.sh import
+./gnome-extensions-config.sh import
 
 ```
 ## 📁 Output File
