@@ -21,5 +21,19 @@ I created this after searching for a while for a clean way to back up my GNOME e
 git clone https://github.com/PomeZzz/GNOME-Extensions-Backup-Script
 cd File location
 ```
+### 2. Make the script executable
+```bash
+chmod +x script.sh
+```
 
+### 3. Export your current extensions config
+```bash
+./script.sh export
+```
+This will create a file called extensions.conf in the same directory.
 
+### 4. Import it back later
+```bash
+./script.sh import
+
+```
