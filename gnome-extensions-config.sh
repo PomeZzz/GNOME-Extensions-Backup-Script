@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONFIG_FILE="extensions.conf"
+CONFIG_FILE="$(dirname "$(realpath "$0")")/extensions.conf"
 DCONF_PATH="/org/gnome/shell/extensions/"
 
 function export_extensions() {
